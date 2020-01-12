@@ -41,7 +41,7 @@ public class DatacoreApplication {
 	CommandLineRunner runner(FileInformationService fileInformationService) {
 
 		return args -> {
-			log.info("INICIANDO APLICAÇÃO");
+			log.debug("INICIANDO APLICAÇÃO");
 
 			for (int i = 0; i < NUMBER_OF_FILES; i++) {
 				fileInformationService.createFile(i + 1);

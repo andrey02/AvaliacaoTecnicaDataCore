@@ -52,7 +52,7 @@ public class FileInformationServiceImpl implements FileInformationService {
 				FileInformation savedInformation = save(createFileInformation(fileName, now));
 
 				if (savedInformation.getId() % 2 == 0) {
-					log.info("Id: " + savedInformation.getId() + "; Name: " + savedInformation.getName()
+					log.debug("Id: " + savedInformation.getId() + "; Name: " + savedInformation.getName()
 							+ "; CreatedAt: " + savedInformation.getCreatedAt());
 				}
 			}
