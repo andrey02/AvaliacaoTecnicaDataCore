@@ -22,9 +22,9 @@ projeto de avaliacao tecnica datacore
 
 
 # Testar H2-Database in memory
-localhost:8080/h2-console
+localhost:8080/h2-console <br><br><br>
 
-JDBC url: jdbc:h2:mem:testdb
-username: sa
-password: 
+JDBC url: jdbc:h2:mem:testdb<br>
+username: sa<br>
+password: <br>
 
