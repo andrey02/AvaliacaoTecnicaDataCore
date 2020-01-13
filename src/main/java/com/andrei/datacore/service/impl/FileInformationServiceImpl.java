@@ -68,7 +68,7 @@ public class FileInformationServiceImpl implements FileInformationService {
 		return repository.save(fileInformation);
 	}
 
-	private FileInformation createFileInformation(String fileName, Date now) {
+	public FileInformation createFileInformation(String fileName, Date now) {
 		FileInformation fileInformation = new FileInformation();
 		fileInformation.setCreatedAt(now);
 		fileInformation.setName(fileName);
